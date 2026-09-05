@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 08 — Figma Components & Variables · CT302</title>
+<meta name="description" content="Creating and managing components, variables, and styles for a scalable design system.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<input class="navtoggle" type="checkbox" id="navtoggle" aria-label="Menu">
+<div class="mobilebar">
+  <a class="brand" href="index.html"><b>CT302 Digital Product Design I (Pilot)</b></a>
+  <label class="hamburger" for="navtoggle" role="button" tabindex="0" aria-label="Open menu"><i></i><i></i><i></i></label>
+</div>
+<div class="layout">
+<nav class="sidenav" aria-label="Course">
+  <a class="brand" href="index.html"><b>CT302</b><span>Digital Product Design I (Pilot)</span></a>
+  <div class="navgroup"><p class="h">Syllabus</p><a href="index.html#description">Course Description</a><a href="index.html#project">Studio Project</a><a href="index.html#outcomes">Learning Outcomes</a><a href="index.html#weeks">Weekly Outline</a><a href="index.html#grading">Grading</a></div>
+  <div class="navgroup"><p class="h">Schedule</p><a class="" href="week-01.html" title="Course Setup & AI-Assisted Workflow">Wk 1 &middot; 9/3</a><a class="" href="week-02.html" title="Brand Candidate Research">Wk 2 &middot; 9/10</a><a class="" href="week-03.html" title="Live Site Audit">Wk 3 &middot; 9/17</a><a class="" href="week-04.html" title="UX Research & Synthesis">Wk 4 &middot; 9/24</a><a class="" href="week-05.html" title="Project Brief & Value Proposition">Wk 5 &middot; 10/1</a><a class="" href="week-06.html" title="Sitemap & Low-Fidelity Wireframes">Wk 6 &middot; 10/8</a><a class="" href="week-07.html" title="Project Proposal Presentations">Wk 7 &middot; 10/15</a><a class="on" href="week-08.html" title="Figma Components & Variables">Wk 8 &middot; 10/22</a><a class="" href="week-09.html" title="Art Direction & Moodboard">Wk 9 &middot; 10/29</a><a class="" href="week-10.html" title="Essential Design System, Part 1">Wk 10 &middot; 11/5</a><a class="" href="week-11.html" title="Essential Design System, Part 2">Wk 11 &middot; 11/12</a><a class="" href="week-12.html" title="Responsive Homepage">Wk 12 &middot; 11/19</a><a class="" href="week-13.html" title="Responsive PDP">Wk 13 &middot; 12/3</a><a class="" href="week-14.html" title="Design Checkpoint & Refinement">Wk 14 &middot; 12/10</a><a class="" href="week-15.html" title="Final Presentations">Wk 15 &middot; 12/17</a></div>
+</nav>
+<main class="colmain"><div class="inner">
+<div class="content">
+    <header>
+      <p class="kicker" style="font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">Week 08 &middot; Thursday, October 22 &middot; Phase 2 — Design &amp; Presentation</p>
+      <h1 style="font-size:clamp(24px,3.4vw,32px);letter-spacing:-.015em;margin:8px 0 12px">Figma Components &amp; Variables</h1>
+      <p style="color:var(--muted)">Creating and managing components, variables, and styles for a scalable design system.</p>
+    </header>
+
+    <section>
+      <p>Phase two starts with craft. Everything you build from here — the system, both pages, both breakpoints — depends on knowing how components, variants and variables actually behave.</p>
+    </section>
+
+    <section><div class="duebox"><p class="lab">Due this week</p><h3>Nothing submitted</h3><p style="font-size:15px;color:var(--muted)">A working week. Weekly assignment and participation still count.</p></div></section>
+
+    <section>
+      <h2>Session plan <span style="font-weight:400;color:var(--muted);font-size:15px">≈170 min</span></h2>
+      <div class="tablewrap"><table class="flow"><tbody><tr><td>35 min</td><td><b>Components and variants</b><br>Properties, variant sets, boolean and instance swaps. When to make a variant and when to make a new component.</td></tr><tr><td>35 min</td><td><b>Variables</b><br>Color, number and string variables; collections and modes. Why a variable beats a style for responsive and theming work.</td></tr><tr><td>45 min</td><td><b>Auto Layout, properly</b><br>Nesting, hug vs fill, min/max width, wrapping, absolute position. Most responsive pain traces back to this.</td></tr><tr><td>35 min</td><td><b>Build along</b><br>One button component with size and state variants, bound to variables.</td></tr><tr><td>20 min</td><td><b>File hygiene</b><br>Naming, page structure, and why your layer names are graded evidence.</td></tr></tbody></table></div>
+    </section>
+
+    <section>
+      <h2>In-class activity: Build one component correctly</h2>
+      <ol><li>Build a button with variants for size and state (default, hover, disabled).</li><li>Create a color variable collection and bind the button's fills and text to it.</li><li>Wrap it in Auto Layout that survives being stretched to 400px and squeezed to 100px.</li><li>Name every layer as if a developer will open the file tomorrow.</li></ol>
+    </section>
+
+    <section>
+      <h2>Working with AI this week</h2>
+      <p>Low AI week by design. This is hand skill, and hand skill is what Direct Creative Contribution measures.</p>
+      <h3>Prompts to start from</h3>
+      <ul class="prompts"><li class="prompt">“Explain the difference between a Figma style and a variable, and when each is the right choice.”</li></ul>
+      <h3>What to verify</h3>
+      <ul><li>Anything AI tells you about Figma's UI may be out of date. Confirm in the app.</li></ul>
+    </section>
+
+    <section>
+      <h2>Evidence to log</h2>
+      <p style="color:var(--muted);font-size:15px">These feed the cognitive-process rubric. Capture them as you work.</p>
+      <div class="tablewrap"><table class="small"><tbody><tr><td><b>Direct Creative Contribution</b></td><td>Your component file, layer structure visible</td></tr></tbody></table></div>
+    </section>
+
+    <section><h2>Before next class</h2><ul><li>Gather visual references for Week 9 — broadly, not just UI. Photography, materials, type specimens, packaging, film stills.</li></ul></section>
+    <section><h2>Resources</h2><ul><li><a href="https://www.figma.com/design/pSWxcZKOCZdTtLHtnCrTtS/RWD-Nespresso?node-id=0-1" target="_blank" rel="noopener">Component structure reference</a> — <span style="color:var(--muted)">Inspect the components page in the Nespresso file.</span></li></ul></section>
+
+    <nav class="pn"><a href="week-07.html"><span>← Week 07</span><b>Project Proposal Presentations</b></a><a class="next" href="week-09.html"><span>Week 09 →</span><b>Art Direction &amp; Moodboard</b></a></nav>
+  </div>
+
+<footer>
+  <span>CT302 Digital Product Design I (Pilot) · Fall 2026</span>
+  <span>Fashion Institute of Technology · School of Art and Design</span>
+</footer>
+</div></main>
+</div>
+</body>
+</html>

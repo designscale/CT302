@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 11 — Essential Design System, Part 2 · CT302</title>
+<meta name="description" content="Spacing scale and core components: buttons, inputs, cards, navigation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&amp;display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<input class="navtoggle" type="checkbox" id="navtoggle" aria-label="Menu">
+<div class="mobilebar">
+  <a class="brand" href="index.html"><b>CT302 Digital Product Design I (Pilot)</b></a>
+  <label class="hamburger" for="navtoggle" role="button" tabindex="0" aria-label="Open menu"><i></i><i></i><i></i></label>
+</div>
+<div class="layout">
+<nav class="sidenav" aria-label="Course">
+  <a class="brand" href="index.html"><b>CT302</b><span>Digital Product Design I (Pilot)</span></a>
+  <div class="navgroup"><p class="h">Syllabus</p><a href="index.html#description">Course Description</a><a href="index.html#project">Studio Project</a><a href="index.html#outcomes">Learning Outcomes</a><a href="index.html#weeks">Weekly Outline</a><a href="index.html#grading">Grading</a></div>
+  <div class="navgroup"><p class="h">Schedule</p><a class="" href="week-01.html" title="Course Setup & AI-Assisted Workflow">Wk 1 &middot; 9/3</a><a class="" href="week-02.html" title="Brand Candidate Research">Wk 2 &middot; 9/10</a><a class="" href="week-03.html" title="Live Site Audit">Wk 3 &middot; 9/17</a><a class="" href="week-04.html" title="UX Research & Synthesis">Wk 4 &middot; 9/24</a><a class="" href="week-05.html" title="Project Brief & Value Proposition">Wk 5 &middot; 10/1</a><a class="" href="week-06.html" title="Sitemap & Low-Fidelity Wireframes">Wk 6 &middot; 10/8</a><a class="" href="week-07.html" title="Project Proposal Presentations">Wk 7 &middot; 10/15</a><a class="" href="week-08.html" title="Figma Components & Variables">Wk 8 &middot; 10/22</a><a class="" href="week-09.html" title="Art Direction & Moodboard">Wk 9 &middot; 10/29</a><a class="" href="week-10.html" title="Essential Design System, Part 1">Wk 10 &middot; 11/5</a><a class="on" href="week-11.html" title="Essential Design System, Part 2">Wk 11 &middot; 11/12</a><a class="" href="week-12.html" title="Responsive Homepage">Wk 12 &middot; 11/19</a><a class="" href="week-13.html" title="Responsive PDP">Wk 13 &middot; 12/3</a><a class="" href="week-14.html" title="Design Checkpoint & Refinement">Wk 14 &middot; 12/10</a><a class="" href="week-15.html" title="Final Presentations">Wk 15 &middot; 12/17</a></div>
+</nav>
+<main class="colmain"><div class="inner">
+<div class="content">
+    <header>
+      <p class="kicker" style="font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)">Week 11 &middot; Thursday, November 12 &middot; Phase 2 — Design &amp; Presentation</p>
+      <h1 style="font-size:clamp(24px,3.4vw,32px);letter-spacing:-.015em;margin:8px 0 12px">Essential Design System, Part 2</h1>
+      <p style="color:var(--muted)">Spacing scale and core components: buttons, inputs, cards, navigation.</p>
+    </header>
+
+    <section>
+      <p>Spacing is the invisible half of the system. Then the components that carry it — built once, correctly, so both pages at both breakpoints assemble fast.</p>
+    </section>
+
+    <section><div class="duebox"><p class="lab">Due this week</p><h3>Design system v1</h3><ul><li>Color palette: primary, secondary, neutral, semantic</li><li>Typography: typefaces, scale, line-height</li><li>Spacing scale</li><li>Buttons, inputs, cards, navigation with variants</li><li>Usage documentation</li></ul></div></section>
+
+    <section>
+      <h2>Session plan <span style="font-weight:400;color:var(--muted);font-size:15px">≈170 min</span></h2>
+      <div class="tablewrap"><table class="flow"><tbody><tr><td>25 min</td><td><b>Spacing scale</b><br>A base unit and a scale. How spacing encodes density, and how density expresses your art direction.</td></tr><tr><td>55 min</td><td><b>Core components</b><br>Buttons, inputs, cards, navigation. Variants for every state you'll actually use.</td></tr><tr><td>40 min</td><td><b>Responsive behavior</b><br>Each component tested at mobile and desktop widths before it's declared done.</td></tr><tr><td>30 min</td><td><b>Documentation</b><br>Usage notes per component: when to use it, when not to, and what it inherits.</td></tr><tr><td>20 min</td><td><b>System review</b><br>Swap files. Find the hardcoded values.</td></tr></tbody></table></div>
+    </section>
+
+    <section>
+      <h2>In-class activity: System v1</h2>
+      <ol><li>Define the spacing scale as number variables and apply it through Auto Layout — no eyeballed padding.</li><li>Build buttons, inputs, cards and navigation with real variants and states.</li><li>Stress-test each at 375px and 1440px.</li><li>Write one usage note per component. Audit for hardcoded values and bind them.</li></ol>
+    </section>
+
+    <section>
+      <h2>Working with AI this week</h2>
+      <p>Use it as a checklist and a critic, not a builder.</p>
+      <h3>Prompts to start from</h3>
+      <ul class="prompts"><li class="prompt">“What component states am I likely to need on a PDP that I haven't built — loading, error, out-of-stock, disabled?”</li><li class="prompt">“Review these usage notes for ambiguity.”</li></ul>
+      <h3>What to verify</h3>
+      <ul><li>Every suggested state has to appear somewhere in your two pages or it doesn't get built.</li></ul>
+    </section>
+
+    <section>
+      <h2>Evidence to log</h2>
+      <p style="color:var(--muted);font-size:15px">These feed the cognitive-process rubric. Capture them as you work.</p>
+      <div class="tablewrap"><table class="small"><tbody><tr><td><b>Direct Creative Contribution</b></td><td>Annotated component layers showing your construction</td></tr><tr><td><b>Domain Knowledge Application</b></td><td>Documented responsive behavior per component</td></tr></tbody></table></div>
+    </section>
+
+    <section><h2>Before next class</h2><ul><li>Ship design system v1. Everything the homepage needs must exist by next week.</li></ul></section>
+    <section><h2>Resources</h2><ul><li><a href="https://www.figma.com/design/pSWxcZKOCZdTtLHtnCrTtS/RWD-Nespresso?node-id=0-1" target="_blank" rel="noopener">Design system reference</a> — <span style="color:var(--muted)">The design system page in the Nespresso file.</span></li></ul></section>
+
+    <nav class="pn"><a href="week-10.html"><span>← Week 10</span><b>Essential Design System, Part 1</b></a><a class="next" href="week-12.html"><span>Week 12 →</span><b>Responsive Homepage</b></a></nav>
+  </div>
+
+<footer>
+  <span>CT302 Digital Product Design I (Pilot) · Fall 2026</span>
+  <span>Fashion Institute of Technology · School of Art and Design</span>
+</footer>
+</div></main>
+</div>
+</body>
+</html>
