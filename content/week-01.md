@@ -25,6 +25,15 @@ description: Google Drive, AI, Figma setup; introducing AI as a research and pla
 1. Browse e-commerce brands across a few categories and jot first impressions: what stands out, what feels dated or broken.
 2. Narrow to three candidate brands you'd consider redesigning.
 
+## Tech setup checklist
+
+Complete these in Week 1 to establish your workspace.
+
+1. **Google AI student offer** — sign up at [Google's student offer](https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/) using your **personal email**, not your FIT address.
+2. **Gemini Notebook** — at [notebook.google.com](https://notebook.google.com), create one notebook titled `CT302 - [Student Name] - [Brand Name] Redesign`. This is your research repository for the semester.
+3. **Google Stitch** — create an account at [stitch.withgoogle.com](https://stitch.withgoogle.com).
+4. **Google AI Studio** — at [aistudio.google.com](https://aistudio.google.com), for testing Nano Banana image generation and logging system instructions.
+
 ## Weekly assignment: Week 1
 
 1. **Brand selection and rationale**
@@ -54,3 +63,9 @@ description: Google Drive, AI, Figma setup; introducing AI as a research and pla
 - [Google Drive](https://drive.google.com/drive/folders/1yem7ztVTWswvJtHmqMOxP5_IqhpqKEqC) — Where all assignments are submitted.
 - [Figma workspace](https://www.figma.com/files/team/1540169165637868925/folder/649028433) — The class team folder for your project files.
 - [RWD-Nespresso reference file](https://www.figma.com/design/pSWxcZKOCZdTtLHtnCrTtS/RWD-Nespresso?node-id=0-1) — The worked example for every stage of this project.
+- [Google One](https://one.google.com/u/2/?g1_landing_page=1) — Your Google AI plan and storage.
+- [Gemini Gems](https://gemini.google.com/u/2/gems/view?pageId=none) — Create and open your Gems.
+- [Gemini Notebook](https://notebook.google.com/?authuser=2&pageId=none) — Your research repository.
+- [Google Stitch](https://stitch.withgoogle.com/u/2/?pli=1) — UI generation from text prompts and sketches.
+- [Google AI Studio](https://aistudio.google.com/u/2/prompts/new_chat) — Developer playground; Nano Banana image generation.
+- [Nespresso Brand Proposal](https://designscale.github.io/CT302/examples/nespresso-proposal.html) — The worked example: research, brief and proposed direction.
