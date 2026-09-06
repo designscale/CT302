@@ -10,39 +10,36 @@ description: Comparative analysis of three e-commerce brands in the same categor
 
 ### Research upload to Gemini Notebook
 
-- Brand profile: audience, mission, archetype
-- UX audit
+- Brand profile: audience, mission, archetype, and much more.
+- UX audit: Home & PDP, rationale for your decision to redesign this brand and opportunities
+- Competitor analysis
+- Interview script
 
 ## Session plan
 
-01. **Gem creation**
-02. **Gemini Notebook setup**
-03. **Brand Research Deep Dive** — Comparative analysis of three e-commerce brands in the same category.
-04. **Brand comparative landscape**
-05. **Website content analysis** — Analyze the website content, audit it, and develop the content.
+01. **Brand Research Deep Dive** — Comparative analysis of three e-commerce brands in the same category.
+02. **Brand comparative landscape**
+03. **Website content analysis** — Analyze the website content, audit it, and develop the content.
+04. **Gemini Notebook setup** — Upload all the research doc and UX audit.
+05. **Gem creation** — Brand Strategist, UX Researcher, Information Architect.
 
 ## Gems to create
 
-Create each in Gemini via **Gems → New Gem**, pasting its Instructions block. Full instructions are in the course materials.
+Create each in Gemini via **Gems → New Gem**, pasting its Instructions block. Full instructions are on the [Gems page](gems.html).
 
 1. **Brand Strategist** — competitive analysis, live site audits, audience, archetype, value proposition
 2. **UX Researcher** — insight synthesis, heuristic evaluation, personas and journey maps
 3. **Information Architect** — sitemaps, navigation, content models, lo-fi structure
-4. **UX Writer** — microcopy, responsive copy, error states, brand voice
-5. **UI Designer** — responsive layout, interaction states, visual hierarchy, WCAG
-6. **Design System Architect** — tokens, component specs, Figma variables and Auto Layout
 
-> Handoff order: Brand Strategist → UX Researcher → Information Architect → UX Writer → UI Designer → Design System Architect.
+> Handoff order: Brand Strategist → UX Researcher → Information Architect.
 
 ## Weekly assignment: Week 2
 
-1. **Develop the content** for your brand
-2. **Wireframe first draft**
+1. **Wireframe first draft** (Desktop only)
   - Homepage
   - Product Detail Page (PDP)
-  - Desktop only
 
-> **Due before class in Week 4 (9/24).** No class on 9/17.
+> **Due before class in Week 3 (9/17).** Post the link in FigJam for review.
 
 ## Resources
 
