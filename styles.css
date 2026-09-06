@@ -40,7 +40,7 @@ p{margin:0}
 .back{display:inline-block;font-size:14px;font-weight:500;color:var(--ink-soft);text-decoration:none;border:1px solid var(--border);border-radius:100px;padding:8px 16px;background:var(--card)}
 .back:hover{border-color:var(--blue);color:var(--blue);text-decoration:none}
 
-.title-block{text-align:center;padding:48px 0 40px}
+.title-block{text-align:left;padding:48px 0 40px}
 .title-block .kicker{font-size:15px;color:var(--ink-soft);margin-bottom:14px}
 .title-block h1{font-size:clamp(28px,4.4vw,42px);letter-spacing:-.01em;font-weight:700}
 .title-block h1 span{display:block}
