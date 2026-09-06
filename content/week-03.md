@@ -6,7 +6,7 @@ title: No Class — 9/17 Cancelled
 description: Class cancelled on 9/17. The next session is Week 4 on 9/24.
 ---
 
-Class is cancelled on **Thursday, September 17**. Keep working on the Week 2 assignment — content development and the wireframe first draft — which is due before class in Week 4 (9/24).
+Class is cancelled on **Thursday, September 17**. The Week 2 assignment is still due today: post your wireframe first draft (Homepage and PDP, desktop only) in FigJam and I'll review it there. The next session is Week 4 on 9/24.
 
 ## Resources
 

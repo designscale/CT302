@@ -39,7 +39,7 @@ Create each in Gemini via **Gems → New Gem**, pasting its Instructions block. 
   - Homepage
   - Product Detail Page (PDP)
 
-> **Due before class in Week 3 (9/17).** Post the link in FigJam for review.
+> **Due 9/17.** No class that day — post the link in FigJam and I'll review it there.
 
 ## Resources
 
