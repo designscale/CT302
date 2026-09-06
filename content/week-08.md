@@ -2,46 +2,24 @@
 week: Week 08
 date: Thursday, October 22
 phase: Phase 2 — Design & Presentation
-title: Figma Components & Variables
-description: Creating and managing components, variables, and styles for a scalable design system.
+title: Stitch to Figma
+description: Importing the Stitch-generated design into Figma; Figma Basics, Part 1.
 ---
-
-Phase two starts with craft. Everything you build from here — the system, both pages, both breakpoints — depends on knowing how components, variants and variables actually behave.
 
 ## Due this week
 
-### Nothing submitted
+### Stitch UI exploration
 
-A working week. Research. Discovery.
+- Initial homepage layout
+- Initial PDP layout
 
 ## Session plan
 
-01. **Components and variants** — Properties, variant sets, boolean and instance swaps. When to make a variant and when to make a new component.
-02. **Variables** — Color, number and string variables; collections and modes. Why a variable beats a style for responsive and theming work.
-03. **Auto Layout, properly** — Nesting, hug vs fill, min/max width, wrapping, absolute position. Most responsive pain traces back to this.
-04. **Build along** — One button component with size and state variants, bound to variables.
-05. **File hygiene** — Naming, page structure, and why your layer names are graded evidence.
-
-## In-class activity: Build one component correctly
-
-1. Build a button with variants for size and state (default, hover, disabled).
-2. Create a color variable collection and bind the button's fills and text to it.
-3. Wrap it in Auto Layout that survives being stretched to 400px and squeezed to 100px.
-4. Name every layer as if a developer will open the file tomorrow.
-
-## Working with AI this week
-
-- “Explain the difference between a Figma style and a variable, and when each is the right choice.”
-- Anything AI tells you about Figma's UI may be out of date. Confirm in the app.
-
-## Evidence to log
-
-**Direct Creative Contribution**. Your component file, layer structure visible
-
-## Before next class
-
-- Gather visual references for Week 9 — broadly, not just UI. Photography, materials, type specimens, packaging, film stills.
+01. **Stitch to Figma** — Import the Stitch-generated design into Figma.
+02. **Figma Basics, Part 1**
 
 ## Resources
 
-- [Component structure reference](https://www.figma.com/design/pSWxcZKOCZdTtLHtnCrTtS/RWD-Nespresso?node-id=0-1) — Inspect the components page in the Nespresso file.
+- [Course materials (Google Drive)](https://drive.google.com/drive/folders/1lUcCikdA2TuyJt79gnYeZIZuONIRWkG7) — Weekly course notes in Markdown.
+- [Google Drive](https://drive.google.com/drive/folders/1yem7ztVTWswvJtHmqMOxP5_IqhpqKEqC) — Where all assignments are submitted.
+- [Figma workspace](https://www.figma.com/files/team/1540169165637868925/folder/649028433) — The class team folder for your project files.

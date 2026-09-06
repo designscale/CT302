@@ -1,52 +1,30 @@
 ---
 week: Week 06
 date: Thursday, October 8
-phase: Phase 1 — Research & Proposal
-title: Sitemap & Low-Fidelity Wireframes
-description: Information architecture, content hierarchy, and navigation structure for the homepage and PDP at both breakpoints.
+phase: Phase 2 — Design & Presentation
+title: Art Direction Proposal Review
+description: Art direction proposal review across three moodboard options; applying the chosen direction to the wireframe in Stitch.
 ---
-
-Structure before style. Four wireframes that prove you know what goes on each page, in what order, and why — while it's still cheap to change your mind.
 
 ## Due this week
 
-### Sitemap + low-fidelity wireframes
+### Art direction proposal
 
-- Sitemap with navigation model
-- Homepage: mobile + desktop
-- PDP: mobile + desktop
-- Annotations tying sections to findings
+- Moodboard, 3 options
 
 ## Session plan
 
-01. **Sitemap** — The whole site's structure, with your two pages shown in context. Navigation model and labels.
-02. **Content hierarchy** — Rank every block on the page by what the user needs first. Mobile forces the ranking to be honest.
-03. **Wireframing — mobile first** — Homepage then PDP at mobile width. Grey boxes and real labels; no color, no type styling, no images.
-04. **Wireframing — desktop** — Expand each to desktop. What gets more room, what becomes horizontal, what stays put.
-05. **Wireframe crit** — Pin up. The room finds what's missing from the buy box.
+01. **Art Direction Proposal review** — 3 moodboard options.
+02. **Applying chosen direction to the wireframe in Stitch**
 
-## In-class activity: Four wireframes, real content
+## Weekly assignment: Week 6
 
-1. Draw the sitemap first — you can't wireframe navigation you haven't structured.
-2. Wireframe mobile first, both pages. Use real product names and real copy lengths, never lorem.
-3. Expand to desktop. Note the reflow decision for each section.
-4. Annotate: what each section does and which audit finding it answers.
+1. **UI design exploration in Google Stitch**
 
-## Working with AI this week
-
-- “Here's my PDP wireframe as a list of sections in order. What's missing that a buyer needs before adding to cart?”
-- “What's the argument for putting shipping information above the fold on a PDP? Against?”
-- Any suggested section has to earn its place against your feature scope. Completeness is not a goal in itself.
-
-## Evidence to log
-
-**Domain Knowledge Application**. Reflow decisions documented per section
-**Direct Creative Contribution**. Your own wireframes — hand-sketched or built in Figma, with layer structure intact
-
-## Before next class
-
-- Finish all four wireframes and the sitemap. Start assembling the proposal deck.
+> **Due before class in Week 7 (10/15).**
 
 ## Resources
 
-- [Wireframe reference](https://www.figma.com/design/pSWxcZKOCZdTtLHtnCrTtS/RWD-Nespresso?node-id=0-1) — See the lo-fi pages in the Nespresso file for expected fidelity — low, but complete.
+- [Course materials (Google Drive)](https://drive.google.com/drive/folders/1lUcCikdA2TuyJt79gnYeZIZuONIRWkG7) — Weekly course notes in Markdown.
+- [Google Drive](https://drive.google.com/drive/folders/1yem7ztVTWswvJtHmqMOxP5_IqhpqKEqC) — Where all assignments are submitted.
+- [Figma workspace](https://www.figma.com/files/team/1540169165637868925/folder/649028433) — The class team folder for your project files.
