@@ -6,6 +6,15 @@ title: Final Presentation
 description: Final presentation.
 ---
 
+## Due this week
+
+### Final Presentation (20 pts)
+
+- A polished 10 minute presentation: brand rationale → research insights → design decisions → final responsive design (4 screens)
+- Clear articulation of how AI was used at each stage, and where human design judgment overrode or refined AI-generated output
+- Delivery & clarity — 10 pts
+- Reflective reasoning, demonstrated live — 10 pts
+
 ## Session plan
 
 01. **Final Presentation**

@@ -10,6 +10,9 @@ description: Project Proposal Presentation — 40 points.
 
 ### Project Proposal Presentation (40 pts)
 
+- A 3–4 minute professional pitch covering research, brand rationale, and proposed direction
+- Submitted as a Loom recording
+
 ## Session plan
 
 01. **Project Proposal Presentation** — 40 pts.
