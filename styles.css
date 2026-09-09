@@ -166,3 +166,5 @@ pre code{background:none;border:0;padding:0;font-size:13px;white-space:pre}
   .navtoggle:checked + .mobilebar .hamburger i:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
 }
 @media (prefers-reduced-motion:reduce){.hamburger i{transition:none}}
+
+.navgroup a.done::after{content:" ✅";font-size:11px}

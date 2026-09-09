@@ -1,5 +1,6 @@
 ---
 week: Week 01
+status: complete
 date: Thursday, September 3
 phase: Phase 1 — Research & Proposal
 title: Course Introduction & AI-Assisted Workflow Setup
